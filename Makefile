@@ -5,6 +5,8 @@ PACKAGES += pyTelegramBotAPI
 PACKAGES += tabulate
 PACKAGES += datetime
 PACKAGES += aiohttp
+PACKAGES += asyncio
+PACKAGES += os
 SCRIPT_NAME=test.py
 
 .PHONY: $(PACKAGES) venv run
